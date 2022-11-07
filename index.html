@@ -10,6 +10,7 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700;900&display=swap"
       rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Furniture Landing Page Design Concept</title>
   </head>
   <body>
@@ -20,12 +21,13 @@
         </div>
         <h1
           class="is-size-3-mobile has-text-centered"
+          data-aos="fade-up"
           style="margin: 7rem 0 1rem 0">
           Modern Chairs Crafted with Love
         </h1>
         <h2
           class="is-size-4-mobile has-text-centered"
-          style="margin-bottom: 7rem">
+          style="margin-bottom: 7rem" data-aos="fade-down">
           We love creating high quality and comfortable chairs
         </h2>
         <a href="#our-chairs" class="btn">Discover our chair selection</a>
@@ -206,6 +208,10 @@
         delay: anime.stagger(100), // increase delay by 100ms for each elements.
         direction: "alternate",
       });
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
     </script>
   </body>
 </html>
