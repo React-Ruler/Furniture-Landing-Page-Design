@@ -10,7 +10,7 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700;900&display=swap"
       rel="stylesheet" />
-    <title>Funiture Landing Page Design Concept</title>
+    <title>Furniture Landing Page Design Concept</title>
   </head>
   <body>
     <header class="hero is-medium">
@@ -18,10 +18,14 @@
         <div class="has-text-centered text-logo">
           <img src="assets/img/logo.svg" alt="furniture logo" />
         </div>
-        <h1 class="has-text-centered" style="margin: 7rem 0 1rem 0">
+        <h1
+          class="is-size-3-mobile has-text-centered"
+          style="margin: 7rem 0 1rem 0">
           Modern Chairs Crafted with Love
         </h1>
-        <h2 class="has-text-centered" style="margin-bottom: 7rem">
+        <h2
+          class="is-size-4-mobile has-text-centered"
+          style="margin-bottom: 7rem">
           We love creating high quality and comfortable chairs
         </h2>
         <a href="#our-chairs" class="btn">Discover our chair selection</a>
@@ -119,7 +123,7 @@
       <div class="container small">
         <header class="has-text-centered">
           <p class="section-intro">Contact us</p>
-          <h3>Let's get in touch</h3>
+          <h3 class="is-size-4-mobile">Let's get in touch</h3>
         </header>
         <form>
           <div class="field">
@@ -157,7 +161,7 @@
               <button class="button is-fullwidth">Send message</button>
             </div>
           </div>
-          <p class="muted has-text-centered">
+          <p class="muted is-size-7-mobile has-text-centered">
             <em
               >All fields are required. We'll get back to you as soon as
               possible.</em
@@ -186,19 +190,19 @@
     </section>
     <footer class="footer">
       <div class="container small">
-        <p class="has-text-centered">
-          &copy; Copyright 2021 The Chair Company. All rights reserved. Built
+        <p class="is-size-7-mobile has-text-centered">
+          &copy; Copyright 2023 The Chair Company. All rights reserved. Built
           with <a href="#">WordPress</a> and
           <a href="#">Elementor</a>
         </p>
       </div>
     </footer>
     <script src="dist/js/script.js"></script>
-    <script src="dist/js/anime.min.js"></script>
+    <script src="dist/js/anime.js"></script>
     <script>
       anime({
         targets: ".text-logo",
-        translateY: 250,
+        translateY: 120,
         delay: anime.stagger(100), // increase delay by 100ms for each elements.
         direction: "alternate",
       });
